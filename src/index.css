@@ -1,0 +1,33 @@
+@import "tailwindcss";
+
+@theme {
+  --font-cairo: 'Cairo', system-ui, sans-serif;
+  --color-brand-green: #71a874;
+  --color-brand-blue: #607fc4;
+  --color-brand-dark: #414141;
+  --color-brand-berry: #bb5791;
+}
+
+body {
+  font-family: 'Cairo', system-ui, sans-serif;
+  color: #414141;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: scale(0.98); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+.animate-fade-in {
+  animation: fadeIn 0.2s ease-out forwards;
+}
+
+/* Hide number input spinners and avoid accidental increments */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}

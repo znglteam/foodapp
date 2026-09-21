@@ -1,0 +1,6 @@
+{
+  "name": "التطبيق التغذوي المتكامل",
+  "description": "تطبيق لتحديد وتتبع الأطعمة، حساب السعرات الحرارية، الفيتامينات، المعادن، والماكروز، وحساب الاحتياجات اليومية وفق الوزن والطول والنشاط وهدف خسارة الوزن.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
